@@ -4,6 +4,7 @@
   <img src="assets/logo.png" width="120" alt="StormSense Weather Logo" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
 </p>
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-2563eb?style=flat&logo=github)](https://kjagdeesh.github.io/StormSense-Weather/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![HTML5 / Tailwind CSS](https://img.shields.io/badge/Stack-HTML5%20%7C%20TailwindCSS%20%7C%20VanillaJS-orange.svg)](#features)
 [![API: Open-Meteo](https://img.shields.io/badge/API-Open--Meteo-brightgreen.svg)](https://open-meteo.com)
