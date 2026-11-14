@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="web_dashboard" name="shell-type">
-  <title>SkyPulse — Live Weather &amp; Indian Metros Intelligence</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='20' cy='11' r='6' fill='%23f59e0b'/%3E%3Cpath d='M7.5 23a5 5 0 0 1-.3-9.98A7 7 0 0 1 20.5 12a5.5 5.5 0 0 1 5.4 4.5A5 5 0 0 1 23.5 23H7.5z' fill='%230284c7'/%3E%3C/svg%3E">
+  <title>StormSense Weather — Live Meteorological &amp; Indian Metros Dashboard</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
   <style>
     @layer base {
@@ -128,49 +130,19 @@
     <header class="relative w-full bg-surface/95 border-b border-surface-container shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-30">
       <div class="h-20 w-full px-space-lg flex items-center justify-between gap-space-md">
         
-        <!-- Brand Group: SkyPulse with Modern Sun-Cloud Emblem -->
-        <div class="flex items-center gap-3.5 cursor-pointer select-none group" onclick="selectIndianCity(0)" title="SkyPulse — Reset to Delhi NCR">
-          <div class="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-400 via-primary-container to-primary p-[1.5px] shadow-[0_8px_20px_-4px_rgba(249,115,22,0.4)] transition-all group-hover:scale-105 group-hover:shadow-[0_12px_24px_-4px_rgba(249,115,22,0.55)]">
-            <div class="w-full h-full rounded-[14px] bg-gradient-to-br from-surface-container-lowest to-surface-container flex items-center justify-center overflow-hidden relative">
-              <svg class="w-7 h-7 drop-shadow-sm" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="logoSunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#fbbf24"></stop>
-                    <stop offset="100%" stop-color="#f97316"></stop>
-                  </linearGradient>
-                  <linearGradient id="logoCloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#ffffff"></stop>
-                    <stop offset="100%" stop-color="#f1f5f9"></stop>
-                  </linearGradient>
-                  <filter id="logoShadow" x="-10%" y="-10%" width="130%" height="130%">
-                    <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-opacity="0.12"></feDropShadow>
-                  </filter>
-                </defs>
-                <!-- Sun Orb with Radiant Rays -->
-                <circle cx="19" cy="11.5" r="5.5" fill="url(#logoSunGrad)"></circle>
-                <g stroke="#f59e0b" stroke-width="1.4" stroke-linecap="round" opacity="0.85">
-                  <line x1="19" y1="3" x2="19" y2="4.5"></line>
-                  <line x1="19" y1="18.5" x2="19" y2="20"></line>
-                  <line x1="27.5" y1="11.5" x2="26" y2="11.5"></line>
-                  <line x1="12" y1="11.5" x2="10.5" y2="11.5"></line>
-                  <line x1="25" y1="5.5" x2="23.8" y2="6.7"></line>
-                  <line x1="14.2" y1="16.3" x2="13" y2="17.5"></line>
-                  <line x1="25" y1="17.5" x2="23.8" y2="16.3"></line>
-                  <line x1="14.2" y1="6.7" x2="13" y2="5.5"></line>
-                </g>
-                <!-- Crisp Modern Cloud Foreground -->
-                <path d="M7.5 22.5 C7.5 19.5 9.8 17.2 12.8 17.2 C13.5 17.2 14.1 17.4 14.7 17.6 C15.7 15.2 18 13.5 20.8 13.5 C24.5 13.5 27.5 16.5 27.5 20.2 C27.5 20.6 27.4 21 27.3 21.4 C28.3 21.6 29 22.5 29 23.5 C29 24.9 27.9 26 26.5 26 L9.5 26 C8.4 26 7.5 25.1 7.5 24 Z" fill="url(#logoCloudGrad)" filter="url(#logoShadow)"></path>
-                <!-- Breeze Flow Accent -->
-                <path d="M5.5 27 C11 27 14 27 19 27" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" opacity="0.9"></path>
-              </svg>
+        <!-- Brand Group: StormSense Weather -->
+        <div class="flex items-center gap-3.5 cursor-pointer select-none group" onclick="selectIndianCity(0)" title="StormSense Weather — Reset to Delhi NCR">
+          <div class="relative w-11 h-11 rounded-2xl bg-gradient-to-br from-primary-container via-primary to-amber-500 p-[1.5px] shadow-[0_8px_20px_-4px_rgba(249,115,22,0.4)] transition-all group-hover:scale-105 group-hover:shadow-[0_12px_24px_-4px_rgba(249,115,22,0.55)]">
+            <div class="w-full h-full rounded-[14px] bg-surface-container-lowest flex items-center justify-center overflow-hidden relative">
+              <img src="assets/logo.png" alt="StormSense Weather Logo" class="w-full h-full object-cover rounded-[14px]">
             </div>
           </div>
           <div class="flex flex-col">
             <div class="flex items-center gap-2">
-              <span class="font-headline-sm text-[20px] font-black text-on-surface tracking-tight leading-none">SkyPulse</span>
-              <span class="px-2 py-0.5 rounded-full bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-[9px] font-extrabold uppercase tracking-widest shadow-xs">LIVE</span>
+              <span class="font-headline-sm text-[20px] font-black text-on-surface tracking-tight leading-none">StormSense</span>
+              <span class="px-2 py-0.5 rounded-full bg-primary-container/10 border border-primary-container/30 text-primary-container font-mono text-[9px] font-extrabold uppercase tracking-widest shadow-xs">WEATHER</span>
             </div>
-            <span class="font-label-sm text-[11px] font-semibold text-secondary tracking-wider uppercase mt-0.5">Atmospheric &amp; Metros Hub</span>
+            <span class="font-label-sm text-[11px] font-semibold text-secondary tracking-wider uppercase mt-0.5">Live Meteorological Hub</span>
           </div>
         </div>
 
@@ -664,7 +636,7 @@
     let currentZoneFilter = 'all';
     let selectedMetroIndex = 0; // Default: New Delhi
     let activePlace = INDIAN_METROS[0];
-    let currentUnit = localStorage.getItem('skypulse_unit') || localStorage.getItem('vayucast_unit') || 'C'; // 'C' or 'F'
+    let currentUnit = localStorage.getItem('stormsense_unit') || localStorage.getItem('skypulse_unit') || localStorage.getItem('vayucast_unit') || 'C'; // 'C' or 'F'
     let currentCurveMode = 'temp'; // 'temp' | 'precip' | 'wind'
     let weatherCache = {};
     let searchTimer = null;
@@ -1324,8 +1296,7 @@
     $('unit-c-btn').addEventListener('click', () => {
       if (currentUnit === 'C') return;
       currentUnit = 'C';
-      localStorage.setItem('skypulse_unit', 'C');
-      localStorage.setItem('vayucast_unit', 'C');
+      localStorage.setItem('stormsense_unit', 'C');
       $('unit-c-btn').className = 'px-3 py-1 rounded-full bg-primary-container text-on-primary font-bold transition-all shadow-sm';
       $('unit-f-btn').className = 'px-3 py-1 rounded-full text-secondary font-semibold hover:text-on-surface transition-all';
       renderMetroGrid();
@@ -1335,8 +1306,7 @@
     $('unit-f-btn').addEventListener('click', () => {
       if (currentUnit === 'F') return;
       currentUnit = 'F';
-      localStorage.setItem('skypulse_unit', 'F');
-      localStorage.setItem('vayucast_unit', 'F');
+      localStorage.setItem('stormsense_unit', 'F');
       $('unit-f-btn').className = 'px-3 py-1 rounded-full bg-primary-container text-on-primary font-bold transition-all shadow-sm';
       $('unit-c-btn').className = 'px-3 py-1 rounded-full text-secondary font-semibold hover:text-on-surface transition-all';
       renderMetroGrid();

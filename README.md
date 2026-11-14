@@ -1,10 +1,14 @@
-# 🌤️ SkyPulse — Atmospheric & Metros Weather Intelligence
+# ⚡ StormSense Weather — Live Meteorological & Indian Metros Intelligence
+
+<p align="center">
+  <img src="assets/logo.png" width="120" alt="StormSense Weather Logo" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![HTML5 / Tailwind CSS](https://img.shields.io/badge/Stack-HTML5%20%7C%20TailwindCSS%20%7C%20VanillaJS-orange.svg)](#features)
 [![API: Open-Meteo](https://img.shields.io/badge/API-Open--Meteo-brightgreen.svg)](https://open-meteo.com)
 
-**SkyPulse** is a responsive, client-side meteorological dashboard engineered with Tailwind CSS, Material Design 3 tokens, and live Open-Meteo weather intelligence. It features a responsive Indian Metros Bento Grid, interactive intraday thermal/rain/wind curves, comprehensive Air Quality Index (AQI) tracking, real-time GPS location detection, and an extended 7-day forecast modal.
+**StormSense Weather** is a responsive, high-performance meteorological web application engineered with Tailwind CSS, Material Design tokens, and live Open-Meteo weather intelligence. It features a responsive Indian Metros Bento Grid, interactive intraday thermal/rain/wind curves, comprehensive Air Quality Index (AQI) tracking, real-time GPS location detection, and an extended 7-day forecast modal.
 
 ---
 
@@ -31,10 +35,26 @@
 
 ---
 
+## 📁 Project Structure
+
+```text
+weather-app-j9gm/
+├── assets/
+│   ├── logo.png          # High-resolution StormSense Weather logo
+│   ├── favicon.ico       # Converted icon for web browsers
+│   └── favicon.png       # Web icon
+├── favicon.ico           # Root favicon for standard web servers
+├── index.html            # Standalone single-page web application
+├── README.md             # Project documentation
+└── .gitignore            # Git exclusion rules
+```
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
-No build steps or dependencies required. **SkyPulse** runs directly in any modern web browser.
+No build steps or dependencies required. **StormSense Weather** runs directly in any modern web browser.
 
 ### Quick Launch
 1. Clone or download this repository:
