@@ -23,6 +23,10 @@
 
 ---
 
+<img src="https://github.com/kjagdeesh/StormSense-Weather/blob/main/assets/StormSense%20Weather%20Launch%20Poster.png"/>
+
+---
+
 ## 🌦️ About the Project
 
 **StormSense Weather** is a modern meteorological web application designed to make weather information accessible, interactive, and visually engaging.
