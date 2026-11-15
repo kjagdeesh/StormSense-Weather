@@ -223,19 +223,21 @@ git push origin feature/your-feature
 
 ## 📜 License
 
-This project is intended to be open source. See the repository's LICENSE file for licensing terms.
+Copyright © 2026
 
----
+StormSense Weather is intended to be an open-source project.
 
-## 👨‍💻 Author
+Unless otherwise stated, the project is distributed under the **MIT License**.
 
-**K. Jagadeesh**
+You are welcome to:
+- ✅ Use the project for personal and educational purposes.
+- ✅ Modify and customize the source code.
+- ✅ Share and distribute copies.
+- ✅ Use the project as a reference for your own applications.
 
-<p align="center">
-  <a href="https://github.com/kjagdeesh">
-    <img src="https://img.shields.io/badge/GitHub-Follow_Me-181717?style=for-the-badge&logo=github" alt="GitHub">
-  </a>
-</p>
+Please retain the original copyright and license notice when redistributing the project.
+
+See the [LICENSE](LICENSE) file for the complete license terms.
 
 ---
 
